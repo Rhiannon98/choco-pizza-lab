@@ -1,3 +1,56 @@
-* {
-  padding-left: 40px;
+nav#topleft {
+  font-family: 'Dancing Script', cursive;
+  font-style: italic;
+  font-weight: bolder;
+  display: inline-block;
+  margin: auto;
+  font-size: 35px;
+}
+
+nav#topright {
+  float: right;
+  align-content: right;
+}
+
+section#topsection {
+  padding: 30px;
+  margin: auto;
+  border-bottom: 1px dashed green;
+  width: 80%;
+  margin: 50px;
+}
+img#pint {
+  padding-left: 10px
+}
+img#fork {
+  height: 26px;
+  width: 26px;
+}
+header {
+  font-weight: bold;
+  font-size: 30px;
+  width: 80%
+}
+img#print {
+  float: right;
+  align-content: right;
+}
+div#mainstuff {
+  width: 80%;
+  padding: 30px;
+  margin: 50px;
+}
+h3#choco {
+  font-size: 35px;
+  font-family: 'Oswald', sans-serif;
+}
+h6 {
+  color: rgba(175, 174, 174, 0.336);
+  font-size: 13px;
+}
+p {
+  font-family: "Times New Roman", Times, serif;
+  color: rgba(175, 174, 174, 0.336);
+  font-size: 9px;
+  padding-left: 30px;
 }
