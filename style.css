@@ -1,3 +1,6 @@
+* {
+  margin: auto;
+}
 nav#topleft {
   font-family: 'Dancing Script', cursive;
   font-style: italic;
@@ -31,14 +34,10 @@ header {
   font-size: 30px;
   width: 80%
 }
-img#print {
-  float: right;
-  align-content: right;
-}
 div#mainstuff {
   width: 80%;
-  padding: 30px;
   margin: 50px;
+  padding: 30px;
 }
 h3#choco {
   font-size: 35px;
@@ -48,9 +47,90 @@ h6 {
   color: rgba(175, 174, 174, 0.336);
   font-size: 13px;
 }
-p {
+p#food {
   font-family: "Times New Roman", Times, serif;
   color: rgba(175, 174, 174, 0.336);
-  font-size: 9px;
+  font-size: 10px;
   padding-left: 30px;
+}
+nav#print1 {
+  font-size: 8px;
+  text-align: right;
+  color: rgba(107, 105, 105, 0.473);
+}
+img#print {
+  float: right;
+  align-content: right;
+  color: rgba(175, 174, 174, 0.336);
+}
+img#pizza {
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+main {
+  padding: 30px;
+  margin: auto;
+  width: 80%;
+}
+form {
+  margin-top: 50px;
+  font-family: 'Indie Flower', cursive;
+  background: url(list-bg.png);
+  padding-top: 10px;
+}
+div#leftform {
+  display: inline-block;
+  padding: 40px;
+  font-size: 15px;
+  padding-left: 150px;
+}
+div#rightform {
+  display: inline-block;
+  margin: auto;
+  padding: 40px;
+  font-size: 15px;
+}
+input[type=checkbox]:checked + box.box{
+  text-decoration: line-through;
+}
+.funky-p {
+  color: rgb(143, 142, 142);
+  text-indent: auto;
+}
+button {
+  background-color: rgb(170, 39, 39); /* Green */
+  border: none;
+  color: rgb(240, 236, 236);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.card {
+  border-top: grey 5px double;
+  padding-top: 1.5em;
+  display: inline-flex;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+}
+img.center {
+  position: absolute;
+  padding-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer {
+  border: 0;
+  border-top: 1px solid rgb(148, 143, 143);
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+  color: rgb(148, 143, 143);
 }
