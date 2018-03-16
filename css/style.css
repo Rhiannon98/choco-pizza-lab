@@ -1,5 +1,9 @@
 * {
-  padding: auto;
+  margin: auto;
+}
+.funky-p {
+  color: rgb(143, 142, 142);
+  text-indent: auto;
 }
 button {
   background-color: rgb(170, 39, 39); /* Green */
@@ -11,10 +15,21 @@ button {
   display: inline-block;
   font-size: 16px;
 }
+.card {
+  border-top: grey 5px double;
+  padding-top: 1.5em;
+  display: inline-flex;
+}
 a {
   text-decoration: none;
   color: white;
   font-size: 1em;
+}
+img.center {
+  position: absolute;
+  padding-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 footer {
   border: 0;
