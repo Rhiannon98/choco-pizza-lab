@@ -1,16 +1,36 @@
 * {
-  padding: 40px;
+  padding: auto;
 }
-
+# {
+  text-align: center;
+}
 button {
-  
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-
+  background-color: rgb(170, 39, 39); /* Green */
+  border: none;
+  color: rgb(240, 236, 236);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+}
+hr {
+  border: 0;
+  border-top: 1px solid rgb(148, 143, 143);
+  margin: 20px 0;
+}
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+  text-align: center;
+  color: rgb(148, 143, 143);
 }
