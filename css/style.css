@@ -1,0 +1,44 @@
+* {
+  margin: auto;
+}
+.funky-p {
+  color: rgb(143, 142, 142);
+  text-indent: auto;
+}
+button {
+  background-color: rgb(170, 39, 39); /* Green */
+  border: none;
+  color: rgb(240, 236, 236);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.card {
+  border-top: grey 5px double;
+  padding-top: 1.5em;
+  display: inline-flex;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+}
+img.center {
+  position: absolute;
+  padding-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer {
+  border: 0;
+  border-top: 1px solid rgb(148, 143, 143);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+  color: rgb(148, 143, 143);
+}
